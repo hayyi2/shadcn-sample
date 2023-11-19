@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --base=/shadcn-sample/",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -44,6 +44,5 @@
     "tailwindcss": "^3.3.3",
     "typescript": "^4.6.4",
     "vite": "^3.1.0"
-  },
-  "homepage": "shadcn-sample"
+  }
 }
