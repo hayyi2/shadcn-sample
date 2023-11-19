@@ -37,22 +37,22 @@ export const mainMenu: NavItemWithChildren[] = [
         items: [
             {
                 title: 'Forms',
-                to: '/element/forms',
+                to: '/forms',
             },
             {
                 title: 'Tables',
-                to: '/element/table',
+                to: '/table',
             },
             {
                 title: 'Widgets',
-                to: '/element/widgets',
+                to: '/widgets',
             },
             {
                 title: 'More Components',
             },
             {
                 title: 'Components',
-                to: '/element/forms',
+                to: '/components',
             },
         ],
     },
@@ -106,19 +106,19 @@ export const sideMenu: NavItemWithChildren[] = [
     },
     {
         title: 'Forms',
-        to: '/element/forms',
+        to: '/forms',
     },
     {
         title: 'Tables',
-        to: '/element/table',
+        to: '/table',
     },
     {
         title: 'Widgets',
-        to: '/element/widgets',
+        to: '/widgets',
     },
     {
         title: 'Components',
-        to: '/element/forms',
+        to: '/components',
     },
     {
         title: 'Extra UI',

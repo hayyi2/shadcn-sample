@@ -17,7 +17,7 @@ npm run dev
   - [x] navbar
   - [x] sidenav
 - [ ] elements
-  - [ ] forms
+  - [x] forms
   - [ ] tables
   - [ ] widgets
   - [ ] components
@@ -25,6 +25,18 @@ npm run dev
   - [ ] empty
   - [ ] dasboard
   - [ ] login
+
+## Docs
+
+### Forms
+Install command
+```bash
+npm install react-hook-form
+npm install zod
+npm install @hookform/resolvers
+npx shadcn-ui@latest add form
+npx shadcn-ui@latest add input
+```
 
 ## License
 
