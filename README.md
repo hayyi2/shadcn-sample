@@ -19,11 +19,11 @@ npm run dev
 - [ ] elements
   - [x] forms
   - [x] tables
-  - [ ] widgets
+  - [x] widgets
   - [ ] components
 - [ ] examples
   - [x] auth
-  - [ ] empty
+  - [x] empty
   - [ ] dasboard
 
 ## Docs

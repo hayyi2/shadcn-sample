@@ -12,6 +12,8 @@ import Forms from "./pages/Forms";
 import Tables from "./pages/Tables";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Widgets from "./pages/Widgets";
+import Components from "./pages/Components";
 
 export const router = createBrowserRouter([
     {
@@ -33,6 +35,14 @@ export const router = createBrowserRouter([
             {
                 path: "table",
                 element: <Tables />,
+            },
+            {
+                path: "widgets",
+                element: <Widgets />,
+            },
+            {
+                path: "components",
+                element: <Components />,
             },
             {
                 path: "auth/login",
