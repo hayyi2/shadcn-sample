@@ -22,9 +22,9 @@ npm run dev
   - [ ] widgets
   - [ ] components
 - [ ] examples
+  - [x] auth
   - [ ] empty
   - [ ] dasboard
-  - [ ] login
 
 ## Docs
 

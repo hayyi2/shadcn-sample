@@ -10,6 +10,8 @@ import Topnav from "./pages/Topnav";
 import Sidenav from "./pages/Sidenav";
 import Forms from "./pages/Forms";
 import Tables from "./pages/Tables";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 export const router = createBrowserRouter([
     {
@@ -31,6 +33,14 @@ export const router = createBrowserRouter([
             {
                 path: "table",
                 element: <Tables />,
+            },
+            {
+                path: "auth/login",
+                element: <Login />,
+            },
+            {
+                path: "auth/register",
+                element: <Register />,
             },
             {
                 path: "empty",
