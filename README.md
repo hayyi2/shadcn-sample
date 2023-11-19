@@ -13,9 +13,9 @@ npm run dev
 
 ## Getting Done
 
-- [ ] layouts
+- [x] layouts
   - [x] navbar
-  - [ ] sidenav
+  - [x] sidenav
 - [ ] elements
   - [ ] forms
   - [ ] tables

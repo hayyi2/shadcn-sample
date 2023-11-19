@@ -1,17 +1,19 @@
 import { Outlet } from "react-router-dom";
-import AppHeader from "./AppHeader";
-import AppFooter from "./AppFooter";
+import { Header } from "./Header";
+import { Footer } from "./Footer";
 
-export default function Applayout() {
+export function Applayout() {
     return (
         <>
-            <AppHeader />
+            <Header />
             <div className="flex-grow">
                 <div className="container px-4 md:px-8">
                     <Outlet />
                 </div>
             </div>
-            <AppFooter />
+            <div className="container px-4 md:px-8">
+                <Footer />
+            </div>
         </>
     )
 }

@@ -21,7 +21,7 @@ import { Logo } from "../logo";
 import { Accordion } from "@radix-ui/react-accordion";
 import { AccordionContent, AccordionItem, AccordionTrigger } from "../ui/accordion";
 
-export default function Header() {
+export function Header() {
     const [open, setOpen] = useState(false)
     const location = useLocation();
 
@@ -90,7 +90,7 @@ export default function Header() {
                             <span className="sr-only">Toggle Menu</span>
                         </Button>
                     </SheetTrigger>
-                    <SheetContent side="left" className="pr-0">
+                    <SheetContent side="left" className="pr-0 sm:max-w-xs">
                         <NavLink
                             to="/"
                             onClick={() => setOpen(false)}

@@ -1,10 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import Applayout from "./components/layouts/AppLayout";
+import { Applayout } from "./components/layouts/AppLayout";
+import { SideLayout } from "./components/layouts/SideLayout";
+
 import NoMatch from "./pages/NoMatch";
 import Dashboard from "./pages/Dashboard";
 import Empty from "./pages/Empty";
 import Topnav from "./pages/Topnav";
+import Sidenav from "./pages/Sidenav";
 
 export const router = createBrowserRouter([
     {
@@ -22,6 +25,16 @@ export const router = createBrowserRouter([
             {
                 path: "empty",
                 element: <Empty />,
+            },
+        ],
+    },
+    {
+        path: "/layout/sidenav",
+        element: <SideLayout />,
+        children: [
+            {
+                path: "",
+                element: <Sidenav />,
             },
         ],
     },

@@ -17,7 +17,7 @@ interface NavItemWithChildren extends NavItem {
 export const mainMenu: NavItemWithChildren[] = [
     {
         title: 'Dashboard',
-        to: '',
+        to: '/',
     },
     {
         title: 'Layouts',
@@ -82,4 +82,66 @@ export const mainMenu: NavItemWithChildren[] = [
     },
 ]
 
-export const sideMenu: NavItemWithChildren[] = []
+export const sideMenu: NavItemWithChildren[] = [
+    
+    {
+        title: 'Dashboard',
+        to: '/',
+    },
+    {
+        title: 'Layouts',
+        items: [
+            {
+                title: 'Topnav Layout',
+                to: '/layout/topnav',
+            },
+            {
+                title: 'Sidenav Layout',
+                to: '/layout/sidenav',
+            },
+        ],
+    },
+    {
+        title: 'Elements UI',
+    },
+    {
+        title: 'Forms',
+        to: '/element/forms',
+    },
+    {
+        title: 'Tables',
+        to: '/element/table',
+    },
+    {
+        title: 'Widgets',
+        to: '/element/widgets',
+    },
+    {
+        title: 'Components',
+        to: '/element/forms',
+    },
+    {
+        title: 'Extra UI',
+    },
+    {
+        title: 'Auth Pages',
+        items: [
+            {
+                title: 'Login',
+                to: '/auth/login',
+            },
+            {
+                title: 'Register',
+                to: '/auth/register',
+            },
+        ],
+    },
+    {
+        title: 'Empty Page',
+        to: '/empty',
+    },
+    {
+        title: 'Error Page',
+        to: '/error',
+    },
+]
