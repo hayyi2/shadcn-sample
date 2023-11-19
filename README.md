@@ -46,6 +46,12 @@ npx shadcn-ui@latest add table
 npx shadcn-ui@latest add select
 ```
 
+### Deploy `gh-pages`
+- change `basenameProd` in `/vite.config.ts`
+- create deploy key `GITHUB_TOKEN` in github `/settings/keys`
+- commit and push changes code
+- setup gihub pages to branch `gh-pages`
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/hayyi2/shadcn-sample/blob/main/LICENSE) file for details.

@@ -73,5 +73,5 @@ export const router = createBrowserRouter([
         element: <NoMatch />,
     },
 ], {
-    basename: '/shadcn-sample'
+    basename: global.basename
 })
