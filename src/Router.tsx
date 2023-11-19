@@ -9,6 +9,7 @@ import Empty from "./pages/Empty";
 import Topnav from "./pages/Topnav";
 import Sidenav from "./pages/Sidenav";
 import Forms from "./pages/Forms";
+import Tables from "./pages/Tables";
 
 export const router = createBrowserRouter([
     {
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
             {
                 path: "forms",
                 element: <Forms />,
+            },
+            {
+                path: "table",
+                element: <Tables />,
             },
             {
                 path: "empty",

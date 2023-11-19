@@ -18,7 +18,7 @@ npm run dev
   - [x] sidenav
 - [ ] elements
   - [x] forms
-  - [ ] tables
+  - [x] tables
   - [ ] widgets
   - [ ] components
 - [ ] examples
@@ -36,6 +36,14 @@ npm install zod
 npm install @hookform/resolvers
 npx shadcn-ui@latest add form
 npx shadcn-ui@latest add input
+```
+
+### Table
+Install command
+```bash
+npm install @tanstack/react-table
+npx shadcn-ui@latest add table
+npx shadcn-ui@latest add select
 ```
 
 ## License
