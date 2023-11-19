@@ -14,7 +14,7 @@ npm run dev
 ## Getting Done
 
 - [ ] layouts
-  - [ ] navbar
+  - [x] navbar
   - [ ] sidenav
 - [ ] elements
   - [ ] forms
