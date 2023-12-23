@@ -73,6 +73,4 @@ export const router = createHashRouter([
         path: "*",
         element: <NoMatch />,
     },
-], {
-    basename: global.basename
-})
+])
