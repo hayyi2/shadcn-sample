@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 
 import { Applayout } from "./components/layouts/AppLayout";
 import { SideLayout } from "./components/layouts/SideLayout";
@@ -15,7 +15,8 @@ import Register from "./pages/Register";
 import Widgets from "./pages/Widgets";
 import Components from "./pages/Components";
 
-export const router = createBrowserRouter([
+// createBrowserRouter
+export const router = createHashRouter([
     {
         path: "/",
         element: <Applayout />,
